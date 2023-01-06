@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f1fbff;
+}
+.logo{
+  height: 90px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  width: 120%;
+}
+
+h1{
+  text-align: center;
+  font-weight: 700;
+}
+
+h2{
+  font-family: sans-serif;
+}
+h5{
+  color: red;
+}
+
+h6{
+   color: red;
+   text-align: center;
+   font-weight: 700;
+}
+p {
+text-align: center;
+}
+.abp {
+  text-align: left;
+}
+.categories{
+  margin: 7%;
+}
+.med1,.med2,.med3{
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.med1{
+  background-color: orange;
+}
+.med2{
+  background-color: orchid;
+}
+.med3{
+  background-color: blue;
+}
+.categories h1{
+  color: white;
+}
+.categories img{
+  width: 120px;
+  border-radius: 5%;
+}
+.card{
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+
+
+.section-padding{
+  padding: 100px 0;
+}
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption{
+  bottom: 200px;
+  z-index: 2;
+}
+.carousel-caption h5{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p{
+   font-size: 1.2rem;
+   width: 60%;
+   margin: auto;
+   line-height: 1.9;
+}
+.carousel-inner::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.navbar-nav{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.w-100{
+  height: 100vh;
+}
+.mid-pic{
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 3%;
+}
+.Focus{
+  background: url(./images/pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+
+}
+.join{
+   background-color: black;
+   color: white;
+}
+.join p{
+  text-align: left;
+  margin: 0;
+}
+.btn2{
+ height: 47px;
+ width: 100px;
+ background: white;
+ margin-left: -10px;
+ border: 2px solid white;
+ font-weight: 600;
+}
+.join input {
+ height: 45px;
+ width: 55%;
+ border: 2px solid white;
+ outline: none;
+ background: black;
+ color: white;
+ margin-top: 20px;
+ font-weight: 600;
+}
+
+/*
+{
+
+}
+<button class="btn btn-warning mt-3" type="button" name="button">Subscribe</button>
+
+.btn1{
+  height: 45px;
+  width: 35px;
+  border: none;
+  outline: none;
+  background-color: rgd(248,26,92);
+  color: white;
+  font-weight: 700;
+  border-radius: 600px;
+}
+ responsive css */
+@media only screen and (max-width: 767px) {
+  .navbar-nav{
+    text-align: center;
+  }
+  .carousel-caption{
+    bottom: 125px;
+  }
+  .carousel-caption h5{
+    font-size: 1rem;
+
+  }
+    .carousel-caption a{
+       padding: 10px 15px;
+    }
+.carousel-caption p{
+  width: 100%;
+  line-height: 1.6;
+  font-size: 12px;
+}
+
+}
